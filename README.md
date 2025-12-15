@@ -1,11 +1,11 @@
-# C Programming Essentials 📘
+# C Programming 
 
 ![C Language](https://img.shields.io/badge/Language-C-blue)
 ![Standard](https://img.shields.io/badge/C11/C17-Standard-yellow)
 ![Compilers](https://img.shields.io/badge/GCC%7CClang%7CMinGW-Compilers-green)
 ![Level](https://img.shields.io/badge/System%20Programming-Mid--Level-red)
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Hello World Program
 ```c
@@ -23,7 +23,7 @@ gcc hello.c -o hello
 ./hello
 ```
 
-## 📋 Core Topics Overview
+##  Core Topics Overview
 
 ### 1. **Basic Syntax & Structure**
 ```c
@@ -189,7 +189,7 @@ while(fgets(buffer, sizeof(buffer), f) != NULL) {
 fclose(f);
 ```
 
-## 🔑 Key Concepts Diagram
+##  Key Concepts Diagram
 
 ```mermaid
 graph TD
@@ -219,7 +219,7 @@ graph TD
     F --> F3[free];
 ```
 
-## ⚠️ Common Pitfalls
+##  Common Pitfalls
 
 1. **Forgetting to free memory** → Memory leaks
 2. **Array out of bounds** → Undefined behavior
@@ -227,7 +227,7 @@ graph TD
 4. **Missing break in switch** → Fall-through
 5. **Not checking malloc return** → Crash if out of memory
 
-## 💡 Best Practices
+## Best Practices
 
 ### Code Style
 ```c
@@ -261,7 +261,7 @@ free(ptr);
 ptr = NULL;  // Prevent dangling pointer
 ```
 
-## 📊 Quick Reference Table
+##  Quick Reference Table
 
 | Topic | Syntax Example | Purpose |
 |-------|---------------|---------|
@@ -272,7 +272,7 @@ ptr = NULL;  // Prevent dangling pointer
 | Struct | `struct Point {int x,y;};` | Group related data |
 | File I/O | `FILE *f = fopen(...)` | Read/write files |
 
-## 🚀 Next Steps
+##  Next Steps
 
 1. **Practice** with simple programs
 2. **Understand pointers** thoroughly
@@ -280,7 +280,7 @@ ptr = NULL;  // Prevent dangling pointer
 4. **Explore standard library**
 5. **Build a small project** (calculator, file manager, etc.)
 
-## 📚 Essential Header Files
+##  Essential Header Files
 
 - `stdio.h` - Input/Output functions
 - `stdlib.h` - Memory allocation, conversions
@@ -288,7 +288,7 @@ ptr = NULL;  // Prevent dangling pointer
 - `math.h` - Mathematical functions
 - `time.h` - Date and time functions
 
-## 🔧 Compiler Flags (GCC)
+##  Compiler Flags (GCC)
 
 ```bash
 # Basic compilation
@@ -308,6 +308,4 @@ gcc -I/path/to/headers program.c -o program
 ```
 
 ---
-**Remember**: C gives you power but also responsibility. Always validate inputs, check memory allocations, and write clear, maintainable code!
 
-*Happy Coding! 🎯*
