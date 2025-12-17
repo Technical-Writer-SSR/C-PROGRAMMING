@@ -269,7 +269,7 @@ int main() {
 ##  Author
 **Embedded Systems Developer**  
 *Specializing in C Programming and Embedded Systems*  
-📧 Contact: Your learning journey starts here!
+Contact: Your learning journey starts here!
 
 ---
 
