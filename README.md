@@ -8,7 +8,7 @@
 [![Standard](https://img.shields.io/badge/Standard-ANSI%20C-orange.svg)](https://en.wikipedia.org/wiki/ANSI_C)
 [![Level](https://img.shields.io/badge/Level-Foundational-green.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 
-## 📚 Table of Contents
+##  Table of Contents
 - [Introduction](#introduction)
 - [File Operations in C](#file-operations-in-c)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -17,7 +17,7 @@
 - [Resources](#resources)
 - [Author](#author)
 
-## 🔍 Introduction
+##  Introduction
 This guide explains the fundamental role of `#include <stdio.h>` in C programming, particularly for file operations. Understanding header files and function declarations is essential for writing error-free C code.
 
 
@@ -217,7 +217,7 @@ int fclose(FILE *stream);
 - Represents a file stream
 - `FILE *` is a pointer to this structure
 
-## ❌ Common Mistakes to Avoid
+##  Common Mistakes to Avoid
 
 | Mistake | Example | Correction |
 |---------|---------|------------|
@@ -225,13 +225,13 @@ int fclose(FILE *stream);
 | Missing Hash | `include <stdio.h>` | `#include <stdio.h>` |
 | Extra Semicolon | `#include <stdio.h>;` | `#include <stdio.h>` |
 
-## ✅ Best Practices
+##  Best Practices
 1. Always include necessary headers before function calls
 2. Use angle brackets for system headers: `#include <header.h>`
 3. Use quotes for local headers: `#include "myheader.h"`
 4. Organize includes logically (system headers first)
 
-## 📋 Quick Reference
+##  Quick Reference
 
 ### Essential Headers for Beginners
 | Header | Purpose | Key Functions |
