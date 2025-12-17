@@ -10,7 +10,6 @@
 
 ## 📚 Table of Contents
 - [Introduction](#introduction)
-- [Why `#include <stdio.h>` is Crucial](#why-include-stdioh-is-crucial)
 - [File Operations in C](#file-operations-in-c)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Best Practices](#best-practices)
@@ -204,7 +203,7 @@ while(fgets(buffer, sizeof(buffer), f) != NULL) {
 fclose(f);
 ```
 
-## 📄 File Operations in C
+##  File Operations in C
 
 ### Key Function Declarations
 ```c
@@ -255,7 +254,7 @@ int main() {
 }
 ```
 
-## 📖 Resources
+##  Resources
 - **Books:**
   - *The C Programming Language* by Kernighan & Ritchie
   - *C Primer Plus* by Stephen Prata
@@ -267,7 +266,7 @@ int main() {
   - GDB Debugger
   - Make Build System
 
-## 👨‍💻 Author
+##  Author
 **Embedded Systems Developer**  
 *Specializing in C Programming and Embedded Systems*  
 📧 Contact: Your learning journey starts here!
